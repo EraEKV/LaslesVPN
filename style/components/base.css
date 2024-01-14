@@ -1,0 +1,40 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+
+body {
+    cursor: default;
+    color: #ffffff;
+}
+
+
+.container_1 {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+
+.container_2 {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+
+.container_3 {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+
+.container_4 {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: .4s;
+}

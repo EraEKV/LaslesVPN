@@ -1,0 +1,142 @@
+
+
+.section_4 {
+    text-align: center;
+    /* margin-bottom: 224px; */
+}
+
+
+.section_4_text h3 {
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+
+.section_4_text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 6%;
+}
+
+
+.section_4_text p span {
+    font-weight: 500;
+}
+
+
+.global_map {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.apps {
+    /* margin-top: 30px; */
+    display: flex;
+    align-items: center;
+}
+
+
+.apps img {
+    margin-right: 5%;
+    width: calc(20% - 20px);
+}
+
+
+.apps img:nth-child(2) {
+    margin-right: 0;
+}
+
+
+.apps img:nth-child(3) {
+    width: 22%;
+    margin-top: 1.5%;
+    margin-right: 0px;
+}
+
+.apps img:last-child {
+    margin-right: 0;
+}
+
+
+.show_global_map a {
+    display: none;
+    color: #F53838;
+    font-size: 16px;
+    border: 2px solid #F53838;
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+
+
+@media( max-width: 550px) {
+    .section_4_text h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .section_4_text p {
+        font-size: 16px;
+    }
+
+    .global_map {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .apps {
+        display: block;
+    }
+
+    .apps img {
+        display: block;
+        margin: 0 auto;
+        width: 35vw;
+    }
+
+    .apps img:nth-child(2) {
+        margin: 0 auto;
+    }
+    
+    .apps img:nth-child(3) {
+        display: none;
+    }
+    
+    .apps img:last-child {
+        margin: 0 auto;
+    }
+
+    .apps img:first-child {
+        margin-bottom: 10px;
+    }
+    
+    .apps img:not(:first-child) {
+        margin-bottom: 30px;
+    }
+}
+
+@media( max-width: 400px) {
+    .section_4_text h3 {
+        font-size: 22px;
+    }
+    
+    .section_4_text p {
+        font-size: 15px;
+    }
+
+    .global_map {
+        display: none;
+    }
+
+    .show_global_map a {
+        display: block;
+        font-size: 14px;
+        width: 40%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
