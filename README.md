@@ -12,3 +12,5 @@ Access Lasles VPN seamlessly from any corner of the globe. Our website adapts gr
 Lasles VPN empowers users with the freedom to connect securely from anywhere on Earth. Experience unrestricted internet access with the click of a button.
 
 Join Lasles VPN today and surf the web securely, no matter where life takes you! 🌐🔒✨
+
+Link to website: [LaslesVPN](https://lasles-vpne.vercel.app)
